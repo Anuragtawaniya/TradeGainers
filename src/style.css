@@ -188,6 +188,7 @@ line-height: 40px;
 }
 .container h1,span{
     color: #fff;
+    font-size:1rem;
 }
 
 .link-column{
