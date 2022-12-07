@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav{
+    padding: 20px 0;
+}
+nav li a{
+    color: gray;
+    text-decoration: none;
+}
+.logo{
+    text-decoration: none;
+    color: #000080;
+}
+.btn-border{
+    background: #000080;
+    padding: 8px 22px;
+    margin: 0 15px;
+ color: #fff;
+ border-radius: 4px;
+   
+}
+nav div a{
+    color: #000;
+}
+.hero{
+    width: 100%;
+    min-height: 40vh;
+    margin: 50px 0;
+   
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-content{
+    width: 50%;
+}
+.hero-content h1,p{
+    width: 60%;
+    margin: 30px 0;
+}
+.hero-img{
+    width: 50%;
+    text-align: center;
+}
+.hero-img img{
+    width: 70%;
+}
+
+.btn{
+   padding: 12px 35px;
+   display: inline-block;
+   border: none;
+   outline: none;
+   border-radius: 4px;
+background: #000080;
+   box-shadow: #000080 0px 15px 10px -10px;
+   color: #e7e7e7;
+}
+.hero-heading{
+    color: #000080;
+}
+/* icon componet */
+.box-main{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 15px 10px -10px;
+    padding: 20px;
+}
+.box{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.box img{
+    background: #ffb6c1;
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    
+
+}
+.main{
+padding:30px;
+
+}
+.border{
+    border-right: 2px solid #e7e7e7;
+}
+.box1{
+    width: 50%;
+}
+.box1 img{
+    width: 60%;
+}
+.hero-content ul li{
+    display: block;
+    margin: 10px 0;
+}
+.heading{
+ height: 400px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+}
+
+.card{
+    width: 30%;
+    padding: 40px;
+    height: 500px;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card-content li{
+margin: 10px 0;
+}
+.card-content img{
+    margin: 0 5px;
+}
+.card-bottom{
+    text-align: center;
+    margin: 15px 0;
+}
+.Plan{
+    min-height: 600px;
+}
+.plan-detail{
+    color: grey;
+}
+.Plan .card:active{
+    border: 1px solid #E0144C;
+}
+.global img{
+    width: 70%;
+}
+.companyLogo img{
+width: 10%;
+}
+.client-profile img{
+width: 40px;
+}
+.client-card{
+    min-width: 30%;
+   margin: 0 20px;
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #e7e7e7;
+
+}
+
+.client-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+min-height: 300px;
+background: #000080;
+flex-direction: column;
+justify-content: center;
+line-height: 40px;
+
+}
+.container h4{
+    color: #AA336A;
+}
+.container h1,span{
+    color: #fff;
+}
+
+.link-column{
+    flex-direction: column;
+    line-height: 40px;
+    justify-content: flex-start;
+}
+.hover-link{
+    color: #000;
+}
+.data-column{
+    width: 40%;
+}
+.social img{
+
+    margin: 0 10px;
+    box-shadow: #e0144a9f 0px 15px 10px -10px;
+}
+nav .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000080;
+    display: none;
+}
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.product-container {
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.sub{
+    width: 90%;
+    margin: 0 auto;
+    min-height:300px;
+    transform: translateY(100px);
+    background: #e7e7e7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sub-box{
+    flex-direction: column;
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 100vh;
+}
+.buttons button{
+    display: inline-block;
+    background: transparent;
+    padding: 10px 22px;
+    background: purple;
+    color: #fff;
+    outline: none;
+    border: none;
+    
+}
+.slider-img{
+  
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.5s;
+
+  }
+  .slider-img img{
+width: 100%;
+height: 300px;
+    margin:10px;
+  }
+@media(max-width:700px){
+    nav .nav-btn{
+        display: block;
+    }
+    nav img{
+        position: absolute;
+        left: 5%;
+    }
+    .sub{
+        transform: none;
+        padding: 20px 0;
+        margin: 20px auto;
+        display: flex;
+    }
+    .open{
+        position: absolute;
+        top: 3%;
+        right: 5%;
+      
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: blueviolet;
+        flex-direction: column;
+        transition: 1s;
+        overflow: hidden;
+        z-index: 1;
+        
+    }
+
+    .nav-close-btn{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+    nav li a{
+        color: #fff;
+    }
+    
+   
+    .flex{
+        flex-direction: column;
+    }
+    .hero div{
+        width: 80%;
+    }
+    .hero-content h1,p{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .hero-img{
+        display: none;
+    }
+    .box{
+        width: 30%;
+    }
+   .box-main{
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+   }
+   .box-main .box{
+    padding: 15px 0;
+   }
+   .box div span{
+    font-size: 10px;
+   }
+   .box img{
+    background: #ffb6c1;
+    padding: 5px 15px;
+    border-radius: 30px;
+
+    
+
+}
+.sub .sub-box{
+    width: 80%;
+}
+.main div{
+    width: 80%;
+    text-align: center;
+}
+.Plan .card{
+    width: 80%;
+    margin: 10px 0;
+}
+.companyLogo {
+    flex-direction: row;
+    margin: 20px 0;
+}
+.client-card{
+    width: 80%;
+}
+.container{
+    margin: 0;
+    padding: 20px 0;
+}
+
+.menu li,nav div a {
+display: block;
+text-align: center;
+margin: 10px 0;
+}
+}
